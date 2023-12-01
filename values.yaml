@@ -9,8 +9,8 @@ imagePullSecrets: gitlab-credentials
 
 nameOverride: ""
 fullnameOverride: ""
-configmap: gagas-config
-secret: gagas-secret
+configmap: comrades-config
+secret: comrades-secret
 
 service:
   type: ClusterIP
