@@ -3,12 +3,12 @@ entries:
   comrades-be-ms:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-12-01T08:11:04.825908+07:00"
+    created: "2023-12-01T08:15:15.487024+07:00"
     description: A Helm chart for ComradesMC service
-    digest: 7bb072029c08d4cc2e64b3d7021aa5fa49db96e2b699ba8000523289e3e695e1
+    digest: 8b81e88fde168b83d36c442ea00ed22ada11ff1cbf50cd09a78c85a663ea0579
     name: comrades-be-ms
     type: application
     urls:
     - https://comrades-mc.github.io/charts/comrades-be-ms-1.0.0.tgz
     version: 1.0.0
-generated: "2023-12-01T08:11:04.825493+07:00"
+generated: "2023-12-01T08:15:15.486613+07:00"
