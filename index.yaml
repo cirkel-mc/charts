@@ -3,12 +3,12 @@ entries:
   chart-mc:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-12-01T08:18:04.354237+07:00"
+    created: "2023-12-21T21:14:10.434498+07:00"
     description: A Helm chart for Kubernetes
     digest: 523a888dc2049a0ea97184978f4eb2432c7642f2e5e7ee75a9c98e42806d7c5d
     name: chart-mc
     type: application
     urls:
-    - chart-mc-0.1.0.tgz
+    - https://www.github.com/comrades-mc/charts/chart-mc-0.1.0.tgz
     version: 0.1.0
-generated: "2023-12-01T08:18:04.353794+07:00"
+generated: "2023-12-21T21:14:10.433463+07:00"
