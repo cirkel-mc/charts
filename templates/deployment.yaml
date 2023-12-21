@@ -39,11 +39,11 @@ spec:
               containerPort: {{ .targetPort }}
               protocol: TCP
             {{- end }}
-          {{- with .Values.app.livenessProbe }}
+          {{- with .Values.livenessProbe }}
           livenessProbe:
             {{- toYaml . | nindent 12 }}
           {{- end }}
-          {{- with .Values.app.readinessProbe }}
+          {{- with .Values.readinessProbe }}
           readinessProbe:
             {{- toYaml . | nindent 12 }}
           {{- end }}
