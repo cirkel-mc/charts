@@ -1,14 +1,14 @@
 apiVersion: v1
 entries:
-  chart-mc:
+  cirkel-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-12-21T21:14:10.434498+07:00"
-    description: A Helm chart for Kubernetes
-    digest: 523a888dc2049a0ea97184978f4eb2432c7642f2e5e7ee75a9c98e42806d7c5d
-    name: chart-mc
+    created: "2023-12-21T22:15:09.104748+07:00"
+    description: Standardization helm chart for Cirkel Music Community
+    digest: 8b8dabea0a21ba6ed529c797c4f6291b763be60923f563eafcdbd2657e259ec5
+    name: cirkel-chart
     type: application
     urls:
-    - https://www.github.com/comrades-mc/charts/chart-mc-0.1.0.tgz
-    version: 0.1.0
-generated: "2023-12-21T21:14:10.433463+07:00"
+    - https://www.github.com/cirkel-mc/charts/cirkel-chart-1.0.0.tgz
+    version: 1.0.0
+generated: "2023-12-21T22:15:09.101901+07:00"
