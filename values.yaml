@@ -71,6 +71,19 @@ resources: {}
   #   cpu: 100m
   #   memory: 128Mi
 
+livenessProbe: {}
+  # httpGet:
+  #   port: 10000
+  #   path: /ping
+  # initialDelaySeconds: 30
+  # periodSeconds: 10
+readinessProbe: {}
+  # httpGet:
+  #   port: 10000
+  #   path: /ping
+  # initialDelaySeconds: 30
+  # periodSeconds: 10
+
 autoscaling:
   enabled: false
   minReplicas: 1
