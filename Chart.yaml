@@ -1,6 +1,6 @@
 apiVersion: v2
-name: chart-mc
-description: A Helm chart for Kubernetes
+name: cirkel-chart
+description: Standardization helm chart for Cirkel Music Community
 
 # A chart can be either an 'application' or a 'library' chart.
 #
