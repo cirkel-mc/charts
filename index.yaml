@@ -3,7 +3,7 @@ entries:
   cirkel-chart:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-12-22T00:00:18.497297+07:00"
+    created: "2023-12-22T00:06:17.092718+07:00"
     description: Standardization helm chart for Cirkel Music Community
     digest: ca6ffe2cb6f61a12f12884f38a3890cf0a6a5eee945fa3ef13026b012fb1d957
     name: cirkel-chart
@@ -11,4 +11,4 @@ entries:
     urls:
     - https://cirkel-mc.github.io/charts/cirkel-chart-1.0.0.tgz
     version: 1.0.0
-generated: "2023-12-22T00:00:18.496315+07:00"
+generated: "2023-12-22T00:06:17.091949+07:00"
