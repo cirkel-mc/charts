@@ -1,0 +1,22 @@
+name: Create and Push custom Helm Chart
+
+on:
+  push: 
+    branches:
+      - master
+
+jobs:
+  create:
+    name: Create Helm Package
+    runs-on: ubuntu-22.04
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Release Helm Chart
+        uses: helm/chart-releaser-action@v1.6.0
+        env:
+          CR_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          charts_dir: .
+          version: "1.0.0"
+          packages_with_index: true
