@@ -1,5 +1,5 @@
 {{- if .Values.ingress.enabled -}}
-{{- $fullName := include "..fullname" . -}}
+{{- $fullName := include "fullName" . -}}
 {{- $svcPort := 80 -}}
 {{- if and .Values.ingress.className (not (semverCompare ">=1.18-0" .Capabilities.KubeVersion.GitVersion)) }}
   {{- if not (hasKey .Values.ingress.annotations "kubernetes.io/ingress.class") }}
@@ -16,8 +16,9 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   name: {{ $fullName }}
+  namespace: {{ .Release.Namespace }}
   labels:
-    {{- include "..labels" . | nindent 4 }}
+    {{- include "labels" . | nindent 4 }}
   {{- with .Values.ingress.annotations }}
   annotations:
     {{- toYaml . | nindent 4 }}

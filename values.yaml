@@ -45,7 +45,7 @@ service:
       targetPort: 9000 # target port is port from pods (service application)
 
 ingress:
-  enabled: true
+  enabled: false
   className: ""
   annotations: {}
     # kubernetes.io/ingress.class: nginx
