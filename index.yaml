@@ -3,7 +3,17 @@ entries:
   cirkel-chart:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-01-21T21:18:24.782288+07:00"
+    created: "2024-01-21T21:41:53.953708+07:00"
+    description: Standardization helm chart for Cirkel Music Community
+    digest: c9839576ababd544890115a9e113d4803cc3df63637a6ce6b97056ba755c5197
+    name: cirkel-chart
+    type: application
+    urls:
+    - https://cirkel-mc.github.io/charts/cirkel-chart-1.0.11.tgz
+    version: 1.0.11
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-01-21T21:41:53.950454+07:00"
     description: Standardization helm chart for Cirkel Music Community
     digest: fefe32e7b457fec0aba9ebc6229da02bf2486e297cfd13385b22673ce60c2457
     name: cirkel-chart
@@ -13,7 +23,7 @@ entries:
     version: 1.0.10
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-01-21T21:18:24.787982+07:00"
+    created: "2024-01-21T21:41:53.957766+07:00"
     description: Standardization helm chart for Cirkel Music Community
     digest: 952f588ac2e9301c99f11398d54a7d36322b16f03514d5fa163b6a453a731127
     name: cirkel-chart
@@ -23,7 +33,7 @@ entries:
     version: 1.0.9
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-01-21T21:18:24.786869+07:00"
+    created: "2024-01-21T21:41:53.956495+07:00"
     description: Standardization helm chart for Cirkel Music Community
     digest: 01c0f05f19122dca6a016677d596a7df6f2cab37b544c56234cf0fc40624995e
     name: cirkel-chart
@@ -33,7 +43,7 @@ entries:
     version: 1.0.8
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-01-21T21:18:24.785964+07:00"
+    created: "2024-01-21T21:41:53.95556+07:00"
     description: Standardization helm chart for Cirkel Music Community
     digest: 245e33820e6bd770c1b50e08dad27f92996ac7cefae1786b119930d5f79f2e5f
     name: cirkel-chart
@@ -43,7 +53,7 @@ entries:
     version: 1.0.7
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-01-21T21:18:24.784414+07:00"
+    created: "2024-01-21T21:41:53.95482+07:00"
     description: Standardization helm chart for Cirkel Music Community
     digest: 3dde85ab4e55d85ba3b972c1ae3d9724516ccb382d317163e3c1d687501d146f
     name: cirkel-chart
@@ -53,7 +63,7 @@ entries:
     version: 1.0.6
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-01-21T21:18:24.783352+07:00"
+    created: "2024-01-21T21:41:53.954311+07:00"
     description: Standardization helm chart for Cirkel Music Community
     digest: b43e249c16d3f2cce539caeedcae316b8f0b4585f5a73d61706b34e1397f272d
     name: cirkel-chart
@@ -111,4 +121,4 @@ entries:
     urls:
     - https://cirkel-mc.github.io/charts/cirkel-chart-1.0.0.tgz
     version: 1.0.0
-generated: "2024-01-21T21:18:24.778624+07:00"
+generated: "2024-01-21T21:41:53.945889+07:00"
