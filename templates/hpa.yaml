@@ -1,8 +1,9 @@
+{{- if .Values.autoscaling }}
 {{- if .Values.autoscaling.enabled }}
-apiVersion: autoscaling/v2beta1
+apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
-  name: {{- include "fullName" . }}
+  name: {{ .Release.Name }}
   namespace: {{ .Release.Namespace }}
   labels:
     {{- include "labels" . | nindent 4 }}
@@ -10,7 +11,7 @@ spec:
   scaleTargetRef:
     apiVersion: apps/v1
     kind: Deployment
-    name: {{ include "fullName" . }}
+    name: {{ .Release.Name }}
   minReplicas: {{ .Values.autoscaling.minReplicas }}
   maxReplicas: {{ .Values.autoscaling.maxReplicas }}
   metrics:
@@ -26,4 +27,5 @@ spec:
         name: memory
         targetAverageUtilization: {{ .Values.autoscaling.targetMemoryUtilizationPercentage }}
     {{- end }}
+{{- end }}
 {{- end }}
