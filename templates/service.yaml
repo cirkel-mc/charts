@@ -8,11 +8,14 @@ metadata:
 spec:
   type: {{ .Values.service.type }}
   ports:
-  {{- range .Values.service.ports }}
-  - name: {{ .name }}
-    port: {{ .port }}
-    targetPort: {{ .targetPort }}
+  {{- range $port := .Values.service.ports }}
+  - name: {{ $port.name }}
+    port: {{ $port.port }}
+    targetPort: {{ $port.targetPort }}
     protocol: TCP
+    {{- if $port.nodePort }}
+    nodePort: {{ $port.nodePort }}
+    {{- end }}
   {{- end }}
   selector:
     {{- include "selectorLabels" . | nindent 4 }}
